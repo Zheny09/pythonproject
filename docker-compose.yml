@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: zheny03/pythonproject
+    build: .
     command: python main.py
     ports:
       - "5000:5000"
